@@ -1,0 +1,302 @@
+body {
+  font-family: "Open Sans";
+}
+.home-container {
+  padding-top: 100px 50px;
+  text-align: center;
+  .intro-container {
+    text-align: -webkit-center;
+    h1 {
+      text-align: center;
+    }
+    .choose-input {
+      border: 1px solid #94dbff;
+      border-radius: 6px;
+      margin-top: 57px;
+      display: flex;
+      align-items: center;
+      width: 40%;
+      text-align: start;
+
+      p {
+        width: 100%;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        margin: 0;
+        padding-left: 27px;
+        color: #a0a0a0;
+      }
+      .choose-btn {
+        border: 1px solid #94dbff;
+      }
+    }
+  }
+
+  //Gallery container
+  .gallery-container {
+    padding-top: 84px;
+    img {
+      width: 100%;
+      min-width: 200px;
+    }
+  }
+
+  // About Kryptokloth
+  .about-kryptokloth {
+    padding-top: 10px;
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 145.01%;
+      text-align: center;
+      letter-spacing: 0.035em;
+    }
+    p {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 136.01%;
+      text-align: center;
+      letter-spacing: 0.035em;
+      color: #5a5a5a;
+    }
+    .video-container {
+      padding: 60px 150px;
+      .video-frame {
+        width: 60rem;
+        min-height: 30rem;
+      }
+    }
+  }
+
+  //assist-container
+  .assist-container {
+    padding-top: 75px;
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 145.01%;
+      letter-spacing: 0.035em;
+      color: #000000;
+    }
+
+    h3 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 145.01%;
+      letter-spacing: 0.035em;
+      color: #000000;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 136.01%;
+      letter-spacing: 0.035em;
+      color: #a0a0a0;
+      margin-top: 30px;
+    }
+
+    button {
+      margin-top: 75px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 136.01%;
+      letter-spacing: 0.035em;
+      color: #626262;
+
+    }
+  }
+
+  // cards container
+
+  .card-container {
+    padding-top: 100px;
+    text-align: center;
+    .card-div {
+      background: #ffffff;
+      box-shadow: 0px 0px 9px 1px rgba(217, 217, 217, 0.31);
+      border-radius: 6px;
+      min-width: 300px;
+      .card-body {
+        padding: 35px 15px;
+        .card-title {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 136.01%;
+          letter-spacing: 0.035em;
+          color: #000000;
+        }
+        .card-text {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 136.01%;
+          text-align: center;
+          letter-spacing: 0.035em;
+          padding: 5px !important;
+          color: #5a5a5a;
+        }
+      }
+    }
+  }
+
+  //   web3 and hassle-free
+  .web3-container {
+    padding: 25px 144px;
+
+    .advance-ai {
+      padding: 0 54px;
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: 0.035em;
+        color: #000000;
+      }
+      h3 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 145.01%;
+        letter-spacing: 0.035em;
+        color: #000000;
+        margin-top: 25px;
+      }
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 145.01%;
+        letter-spacing: 0.035em;
+        color: #a0a0a0;
+      }
+    }
+  }
+
+  // finishing touch section
+  .finishing-touch {
+    padding: 0 157px;
+    .finishing-content {
+      margin-top: 20px;
+      text-align: -webkit-center;
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 145.01%;
+        text-align: center;
+        letter-spacing: 0.035em;
+        color: #000000;
+        margin-bottom: 30px;
+      }
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 145.01%;
+        text-align: center;
+        letter-spacing: 0.035em;
+        color: #a0a0a0;
+        margin-bottom: 30px;
+      }
+
+      .email-dev {
+        width: 60%;
+        input {
+          width: 100%;
+          background: #ffffff;
+          border: 1px solid #aeaeae;
+          box-shadow: 0px 2px 4px rgba(208, 208, 208, 0.25);
+          border-radius: 6px;
+          padding: 10px;
+        }
+        button {
+          position: relative;
+          right: 116px;
+          top: 2px;
+          border-color: #94dbff;
+        }
+        input:focus {
+          outline: none;
+          border-color: #94dbff;
+        }
+      }
+    }
+  }
+}
+
+.bg-image {
+  margin-top: 50px;
+
+  h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 145.01%;
+    letter-spacing: 0.035em;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  button {
+    background: #ffffff;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 145.01%;
+    letter-spacing: 0.035em;
+    color: #535353;
+  }
+}
+//Footer
+.footer {
+  padding: 25px 172px;
+  background-color: #f9f9f9;
+}
+
+.gallery-div-1 {
+  min-width: 20%;
+}
+.gallery-div-2 {
+  min-width: 33%;
+}
+
+
+.button-property{
+  font-size: 18px !important;
+  color: rgb(16, 16, 16) !important;
+  height: 45px;
+  padding: 0 20px;
+  border: 1px solid #000;
+  
+}
+.button-property:hover
+{
+  background-color: #000 !important;
+  color: #fff !important;
+  border: 1px solid #000 !important;
+}
+
+.button-property-2{
+  font-size: 18px !important;
+  color: rgb(16, 16, 16) !important;
+  height: 41px;
+  padding: 0 20px;
+  border: 1px solid #000;
+  
+}
+.button-property-2:hover
+{
+  background-color: #000 !important;
+  color: #fff !important;
+  border: 1px solid #000 !important;
+}
