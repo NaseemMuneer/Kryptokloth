@@ -2,7 +2,7 @@ import React from "react";
 
 
 const Video = () => {
-  const videoUrl = `https://www.youtube.com/embed/L0hYRFy2Gow`;
+  const videoUrl = `https://www.youtube.com/embed/syD68vdpcbM`;
 
   return (
       <iframe

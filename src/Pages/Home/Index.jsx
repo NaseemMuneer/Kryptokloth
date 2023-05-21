@@ -7,6 +7,7 @@ import PrimaryCard from "../../Components/Common/primaryCard";
 import MarketPlace from "../../Components/images/Market place and NFT (5).png";
 import FinalSection from "../../Components/Common/Giff Images/Finale for first section of KryptoKloth-min.gif";
 import PrimaryModel from "../../Components/Common/primaryModel";
+import FashionDesign from "../../Components/Common/Giff Images/FashionDesign.gif";
 
 function Index() {
   const [modal1Open, setModal1Open] = useState(false);
@@ -45,7 +46,7 @@ function Index() {
             <h1>Take a moment or two to get to know Kryptokloth</h1>
             <p>
               And then go change the world of fashion in a new and sustainable
-              way.
+              way
             </p>
             <div className="conatiner-fluid video-container">
               <Video />
@@ -57,29 +58,29 @@ function Index() {
             <div className="row justify-content-between px-5">
               <div className="col-6">
                 <h1>
-                  Your fashion design creative assistant from beginning to end.
+                  Your fashion design creative assistant from beginning to end
                 </h1>
                 <p className="px-5">
                   Discover boundless inspiration for your upcoming fashion
                   designs by harnessing the power of AI as your fashion
-                  assistant.
+                  assistant
                 </p>
                 <div className="">
                   <Button className="button-property">
-                    Get started upload an Image
+                    Get started upload an image
                   </Button>
                 </div>
               </div>
 
               <div className="col-6">
-                <img src={FinalSection} alt="" />
+                <img src={FashionDesign} alt="" width={550} />
               </div>
             </div>
           </div>
 
           {/* //cards container  */}
           <div className="container-fluid card-container">
-            <h1>Advanced AI and web 3 Tools make it easy</h1>
+            <h1>Advanced AI and web 3 tools make it easy</h1>
             <PrimaryCard />
           </div>
 
@@ -88,16 +89,16 @@ function Index() {
             <div className="row justify-content-between pt-5 align-items-center">
               <h1 className="text-center mb-5">
                 Advanced and intuitive AI and Web 3 Tools to make your fashion
-                future suatainable and hassle-free.
+                future sustainable and hassle-free
               </h1>
               <div className="col-6 advance-ai">
                 <h3>
-                  Welcome to the new era of Marketplace - <br /> The Microverse
+                  Welcome to the new era of Marketplace
                 </h3>
                 <p>
-                  A creative 360 micro universe where designers can come
+                  A creative 360 "microverse" where designers can come
                   together to change the world. Be part of the new AI era where
-                  physical meets digital and reducing emissions is paramount.
+                  physical meets digital and reducing emissions is paramount
                 </p>
               </div>
               <div className="col-6 text-center">
@@ -112,12 +113,12 @@ function Index() {
               <div className="col-12 finishing-content">
                 <h1>We are putting the finishing touches on Kryptokloth</h1>
                 <p>
-                  Be the first join our list to get update before we go live.
+                  Be the first to join our list to get updates before we go live
                 </p>
                 <div className="d-flex email-dev">
                   <input
                     type="text"
-                    placeholder="Get update on mobile and other Kryptokloth  news"
+                    placeholder="Get update on mobile and other Kryptonews"
                   />
                   <Button className="button-property-2">Email me</Button>
                 </div>
@@ -125,9 +126,9 @@ function Index() {
             </div>
           </div>
           <div className="bg-image text-center">
-            <h1>Unleash your fashion Future</h1>
+            <h1>Unleash your fashion future</h1>
             <Button className="button-property">
-              Try kryptokloth for free
+              Try Kryptokloth for free
             </Button>
           </div>
         </div>
