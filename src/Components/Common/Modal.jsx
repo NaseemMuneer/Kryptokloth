@@ -14,11 +14,12 @@ function Modal({ onClose }) {
 								}}
 							/>
 						</div>
-						<p>
-							Lorem ipsum 
+						<p className="para">
+							Get started now and Enjoy the Kryptokloth
 						</p>
 					</div>
-					<div>
+					<div className="bottom-div">
+						<h4 className="sign-up-heading">Sign up or sign in to to be in waiting list.</h4>
 						<a className="google-link" href="#">
 							<img
 								className="google-logo"
